@@ -1,0 +1,15 @@
+[project]
+name = "monitoring-with-cloudwatch"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "aws-cdk-lib==2.206.0",
+    "constructs>=10.0.0,<11.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "aws-cdk-lib==2.206.0",
+    "constructs>=10.0.0,<11.0.0",
+    "pytest==6.2.5",
+]
